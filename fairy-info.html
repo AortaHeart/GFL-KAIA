@@ -1,0 +1,653 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fairy Info</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/fairy-info.css">
+</head>
+<body>
+  <div class="waves"></div>
+  <div class="page-header">
+  </div>
+<div class="fairy-guide">
+  
+</div>
+<div class="fairy-list">
+  <div class="fairy-list-header">
+    <div class="navbar">
+      <input type="text" class="quicksearch" placeholder="Search ..." />
+      <button class="show-nav-tools">
+        <i class="material-icons">expand_more</i>
+        <p>Filters</p>
+      </button>
+      <div class="ui-group view-select-wrap">
+        <div class="button-group view-select">
+          <button class="button is-checked" data-view="icon"><i class="material-icons">view_module</i></button>
+          <button class="button" data-view="detail"><i class="material-icons">view_stream</i></button>
+        </div>
+      </div>
+    </div>
+    <div class="nav-tools">
+      <div class="filters">
+        <div class="ui-group filter-wrap">
+          <h3>Type:</h3>
+          <div class="button-group filter-group js-radio-button-group" data-filter-group="type">
+            <button class="button is-checked" data-filter="">All</button>
+            <button class="button" data-filter=".tactical">Tactical</button>
+            <button class="button" data-filter=".combat">Combat</button>
+          </div>
+        </div>
+        <div class="ui-group filter-wrap">
+          <h3>Accessibility:</h3>
+          <div class="button-group filter-group js-radio-button-group" data-filter-group="extra">
+            <button class="button is-checked" data-filter="">All</button>
+            <button class="button" data-filter=".craftable">Craftable</button>
+            <button class="button" data-filter=".rank-reward">Ranking Reward</button>
+            <button class="button" data-filter=".extra">Extra</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="grid-wrap">
+    <div class="grid icon">
+      <div class="fairy tactical craftable active">
+        <div class="identifier">
+          <h3 class="name">COMMAND</h3>
+          <img src="https://gflcorner.com/wp-content/uploads/2019/03/command_3.png">
+        </div>
+        <div class="info">
+          <div class="info-content skill">
+            <div class="skill-header">
+              <img class="skill-icon" src="https://gflcorner.com/wp-content/uploads/2019/03/command.png">
+              <div class="skill-name">
+                <h3>Experience Overload</h3>
+                <p>Cost: 5 Support Commands<span class="width-buffer"></span>Cooldown: None</p>
+                <div class="linear-bg"></div>
+              </div>
+            </div>
+            <p>In the next battle, increase EXP gained by the echelon by 5%(25%)</p>
+          </div>
+          <div class="info-content stats">
+            <ol class="stat-header"><li>Stats</li><li>★</li><li>★★★<br></br>★★</li></ol>
+            <ol class="stat-line"><li>DMG</li><li>8%</li><li>36%</li></ol>
+            <ol class="stat-line"><li>CDMG</li><li>8%</li><li>36%</li></ol>
+            <ol class="stat-line"><li>ACC</li><li>n/a</li><li>n/a</li></ol>
+            <ol class="stat-line"><li>EVA</li><li>8%</li><li>32%</li></ol>
+            <ol class="stat-line"><li>AMR</li><li>2%</li><li>8%</li></ol>
+          </div>
+          <div class="info-content eval">
+            <div class="eval-name">
+              <div class="linear-bg"></div>
+              <h3>Evaluation</h3>
+            </div>
+            <p>Offers the second-best passive buffs out of all fairies.
+    This one is the most general use of them all, you will get one for free after you do your first fairy craft and it will also come with the Damage I talent. Raise her, as she will prove extremely useful.</p>
+          </div>
+        </div>
+      </div>
+      <div class="fairy tactical craftable">
+        <div class="identifier">
+          <h3 class="name">PARACHUTE</h3>
+          <img src="https://gflcorner.com/wp-content/uploads/2019/03/airborne_3.png">
+        </div>
+        <div class="info">
+          <div class="info-content skill">
+            <div class="skill-header">
+              <img class="skill-icon" src="https://gflcorner.com/wp-content/uploads/2019/03/airborne.png">
+              <div class="skill-name">
+                <h3>Helidrop</h3>
+                <p>Cost: 5 Support Commands<span class="width-buffer"></span>Cooldown: 5 turns</p>
+                <div class="linear-bg"></div>
+              </div>
+            </div>
+            <p>Lands parent echelon on any heliport within a radius of 3(infinite) nodes, but decreases damage, accuracy, evasion, armor and crit rate of the echelon by 90%(40%) for two turns.</p>
+          </div>
+          <div class="info-content stats">
+            <ol class="stat-header"><li>Stats</li><li>★</li><li>★★★<br></br>★★</li></ol>
+            <ol class="stat-line"><li>DMG</li><li>6%</li><li>36%</li></ol>
+            <ol class="stat-line"><li>CDMG</li><li>6%</li><li>40%</li></ol>
+            <ol class="stat-line"><li>ACC</li><li>n/a</li><li>n/a</li></ol>
+            <ol class="stat-line"><li>EVA</li><li>5%</li><li>32%</li></ol>
+            <ol class="stat-line"><li>AMR</li><li>1%</li><li>8%</li></ol>
+          </div>
+          <div class="info-content eval">
+            <div class="eval-name">
+              <div class="linear-bg"></div>
+              <h3>Evaluation</h3>
+            </div>
+            <p>Commonly known as “Paradrop”, this fairy provides the best constellation of passive buffs of all fairies and arguably possesses the most broken skill.
+    She completely changes how you look at the maps due to the her skill's tactical utility. She is available only from a high-cost recipe, and since raising her may prove challenging, it would be better to focus on other fairies first. It is advised not to bother too much about investing into her once acquired.</p>
+          </div>
+        </div>
+      </div>
+      <div class="fairy tactical craftable">
+        <div class="identifier">
+          <h3 class="name">ILLUMINE</h3>
+          <img src="https://gflcorner.com/wp-content/uploads/2019/03/illumine_3.png">
+        </div>
+        <div class="info">
+          <div class="info-content skill">
+            <div class="skill-header">
+              <img class="skill-icon" src="https://gflcorner.com/wp-content/uploads/2019/03/illumine.png">
+              <div class="skill-name">
+                <h3>Night-Time Illumination</h3>
+                <p>Cost: 5 Support Commands<span class="width-buffer"></span>Cooldown: 2 turns</p>
+                <div class="linear-bg"></div>
+              </div>
+            </div>
+            <p>Improves visibility by 0(2) nodes during night battles, and increases echelon's accuracy by 10%(30%) in all battles for 2 turns. Buff lapses during each battle after 20 seconds.</p>
+          </div>
+          <div class="info-content stats">
+            <ol class="stat-header"><li>Stats</li><li>★</li><li>★★★<br></br>★★</li></ol>
+            <ol class="stat-line"><li>DMG</li><li>n/a</li><li>n/a</li></ol>
+            <ol class="stat-line"><li>CDMG</li><li>8%</li><li>38%</li></ol>
+            <ol class="stat-line"><li>ACC</li><li>20%</li><li>90%</li></ol>
+            <ol class="stat-line"><li>EVA</li><li>7%</li><li>32%</li></ol>
+            <ol class="stat-line"><li>AMR</li><li>2%</li><li>8%</li></ol>
+          </div>
+          <div class="info-content eval">
+            <div class="eval-name">
+              <div class="linear-bg"></div>
+              <h3>Evaluation</h3>
+            </div>
+            <p>Provides quite adequate passive buffs, considering a 38% boost to Crit Damage and the highest Accuracy buff any fairy could offer. 
+    Due to her skill mostly being used in night battles, she will be invaluable for such scenarios later. Prioritize her skill level over her rarity.</p>
+          </div>
+        </div>
+      </div>
+      <div class="fairy tactical craftable">
+        <div class="identifier">
+          <h3 class="name">LANDMINE</h3>
+          <img src="https://gflcorner.com/wp-content/uploads/2019/03/landmines_3.png">
+        </div>
+        <div class="info">
+          <div class="info-content skill">
+            <div class="skill-header">
+              <img class="skill-icon" src="https://gflcorner.com/wp-content/uploads/2019/03/landmines.png">
+              <div class="skill-name">
+                <h3>Minefields</h3>
+                <p>Cost: 5 Support Commands<span class="width-buffer"></span>Cooldown: 3 turns</p>
+                <div class="linear-bg"></div>
+              </div>
+            </div>
+            <p>Places a landmine on a selected adjacent node that lasts 2 turns and deals 20%(50%) of enemies’ current HP as damage when enemy triggers it.<br></br><span class="caution-text">Does not deal damage to bosses.</span></p>
+          </div>
+          <div class="info-content stats">
+            <ol class="stat-header"><li>Stats</li><li>★</li><li>★★★<br></br>★★</li></ol>
+            <ol class="stat-line"><li>DMG</li><li>6%</li><li>25%</li></ol>
+            <ol class="stat-line"><li>CDMG</li><li>n/a</li><li>n/a</li></ol>
+            <ol class="stat-line"><li>ACC</li><li>10%</li><li>44%</li></ol>
+            <ol class="stat-line"><li>EVA</li><li>20%</li><li>85%</li></ol>
+            <ol class="stat-line"><li>AMR</li><li>n/a</li><li>n/a</li></ol>
+          </div>
+          <div class="info-content eval">
+            <div class="eval-name">
+              <div class="linear-bg"></div>
+              <h3>Evaluation</h3>
+            </div>
+            <p>Provides decent damage aura.
+    While sometimes impractical, her skill can be incredibly useful when facing heavy-duty enemies that can be herded into the trap. Has ranking applications since that her damage does not reduce CE of the victim enemy.</p>
+          </div>
+        </div>
+      </div>
+      <div class="fairy tactical craftable">
+        <div class="identifier">
+          <h3 class="name">RESCUE</h3>
+          <img src="https://gflcorner.com/wp-content/uploads/2019/03/rescue_3.png">
+        </div>
+        <div class="info">
+          <div class="info-content skill">
+            <div class="skill-header">
+              <img class="skill-icon" src="https://gflcorner.com/wp-content/uploads/2019/03/rescue.png">
+              <div class="skill-name">
+                <h3>High-Efficiency Rescue</h3>
+                <p>Cost: 1 Support Command<span class="width-buffer"></span>Cooldown: 1 turn</p>
+                <div class="linear-bg"></div>
+              </div>
+            </div>
+            <p>In the next battle, increase the chance of current echelon obtaining a rare T-Doll minorly(massively).</p>
+          </div>
+          <div class="info-content stats">
+            <ol class="stat-header"><li>Stats</li><li>★</li><li>★★★<br></br>★★</li></ol>
+            <ol class="stat-line"><li>DMG</li><li>6%</li><li>25%</li></ol>
+            <ol class="stat-line"><li>CDMG</li><li>n/a</li><li>n/a</li></ol>
+            <ol class="stat-line"><li>ACC</li><li>10%</li><li>44%</li></ol>
+            <ol class="stat-line"><li>EVA</li><li>20%</li><li>85%</li></ol>
+            <ol class="stat-line"><li>AMR</li><li>n/a</li><li>n/a</li></ol>
+          </div>
+          <div class="info-content eval">
+            <div class="eval-name">
+              <div class="linear-bg"></div>
+              <h3>Evaluation</h3>
+            </div>
+            <p>Good passive buffs comparable to the Warrior fairy’s.
+    Her skill is difficult to evaluate, as it allegedly increases chances of obtaining rare dolls as drops, though specifics are not provided. Some call this a placebo fairy, others swear by it. In any case the only thing to be said about her skill is; #blessRNG.</p>
+          </div>
+        </div>
+      </div>
+      <div class="fairy tactical craftable">
+        <div class="identifier">
+          <h3 class="name">ROCKET</h3>
+          <img src="https://gflcorner.com/wp-content/uploads/2019/03/position_3.png">
+        </div>
+        <div class="info">
+          <div class="info-content skill">
+            <div class="skill-header">
+              <img class="skill-icon" src="https://gflcorner.com/wp-content/uploads/2019/03/position.png">
+              <div class="skill-name">
+                <h3>Frontline Reaper</h3>
+                <p>Cost: 3 Support Commands<span class="width-buffer"></span>Cooldown: 3 turns</p>
+                <div class="linear-bg"></div>
+              </div>
+            </div>
+            <p>Deploys a rocket launcher that remains for 2 turns with 3 shots, dealing damage equaling to 10%(20%) of the target’s current health if a hostile unit moves within its radius of 2 nodes.<br></br> <span class="caution-text">Does not deal damage to bosses,</span>
+          <span class="alert-text">FRIENDLY FIRE HAZARD</span></p>
+          </div>
+          <div class="info-content stats">
+            <ol class="stat-header"><li>Stats</li><li>★</li><li>★★★<br></br>★★</li></ol>
+            <ol class="stat-line"><li>DMG</li><li>n/a</li><li>n/a</li></ol>
+            <ol class="stat-line"><li>CDMG</li><li>8%</li><li>35%</li></ol>
+            <ol class="stat-line"><li>ACC</li><li>10%</li><li>44%</li></ol>
+            <ol class="stat-line"><li>EVA</li><li>n/a</li><li>n/a</li></ol>
+            <ol class="stat-line"><li>AMR</li><li>5%</li><li>22%</li></ol>
+          </div>
+          <div class="info-content eval">
+            <div class="eval-name">
+              <div class="linear-bg"></div>
+              <h3>Evaluation</h3>
+            </div>
+            <p>Provides Crit Damage aura with a significant Armor boost as well.
+    Her skill is similar to the Landmine fairy’s in the sense that it can be used to great effect on heavy-duty enemies with some planning. Be advised that friendly fire is very possible.</p>
+          </div>
+        </div>
+      </div>
+      <div class="fairy tactical craftable">
+        <div class="identifier">
+          <h3 class="name" style="font-size: calc(1.2em + .5vw);">CONSTRUCTION</h3>
+          <img src="https://gflcorner.com/wp-content/uploads/2019/03/fortress_3.png">
+        </div>
+        <div class="info">
+          <div class="info-content skill">
+            <div class="skill-header">
+              <img class="skill-icon" src="https://gflcorner.com/wp-content/uploads/2019/03/fortress.png">
+              <div class="skill-name">
+                <h3>Emergency Fortress</h3>
+                <p>Cost: 5 Support Commands<span class="width-buffer"></span>Cooldown: 3 turns</p>
+                <div class="linear-bg"></div>
+              </div>
+            </div>
+            <p>Constructs an immobile fortress at the current position of the echelon. For 3 turns, when allied units fight on the fortress, increase their damage, accuracy, evasion, armor and crit chance by 10%(30%).</p>
+          </div>
+          <div class="info-content stats">
+            <ol class="stat-header"><li>Stats</li><li>★</li><li>★★★<br></br>★★</li></ol>
+            <ol class="stat-line"><li>DMG</li><li>4%</li><li>15%</li></ol>
+            <ol class="stat-line"><li>CDMG</li><li>5%</li><li>20%</li></ol>
+            <ol class="stat-line"><li>ACC</li><li>12%</li><li>50%</li></ol>
+            <ol class="stat-line"><li>EVA</li><li>10%</li><li>40%</li></ol>
+            <ol class="stat-line"><li>AMR</li><li>2%</li><li>10%</li></ol>
+          </div>
+          <div class="info-content eval">
+            <div class="eval-name">
+              <div class="linear-bg"></div>
+              <h3>Evaluation</h3>
+            </div>
+            <p>Her buffs are not as strong as those of the Taunt fairy, but she still serves a good all-rounder. Her skill forces passive play, but when utilized correctly, it can be one of the most powerful ones, especially the current echelon is replaced by another with a better fairy buffer after fortress cosntruction. Medium priority.</p>
+          </div>
+        </div>
+      </div>
+      <div class="fairy tactical craftable">
+        <div class="identifier">
+          <h3 class="name">DEFENSE</h3>
+          <img src="https://gflcorner.com/wp-content/uploads/2019/03/defense_3.png">
+        </div>
+        <div class="info">
+          <div class="info-content skill">
+            <div class="skill-header">
+              <img class="skill-icon" src="https://gflcorner.com/wp-content/uploads/2019/03/defense.png">
+              <div class="skill-name">
+                <h3>Makeshift Armor</h3>
+                <p>Cost: 5 Support Commands<span class="width-buffer"></span>Cooldown: 1 turn</p>
+                <div class="linear-bg"></div>
+              </div>
+            </div>
+            <p>Grants an echelon 10%(30%) damage reduction buff that lasts one turn for any amount of battles.</p>
+          </div>
+          <div class="info-content stats">
+            <ol class="stat-header"><li>Stats</li><li>★</li><li>★★★<br></br>★★</li></ol>
+            <ol class="stat-line"><li>DMG</li><li>4%</li><li>22%</li></ol>
+            <ol class="stat-line"><li>CDMG</li><li>n/a</li><li>n/a</li></ol>
+            <ol class="stat-line"><li>ACC</li><li>n/a</li><li>n/a</li></ol>
+            <ol class="stat-line"><li>EVA</li><li>14%</li><li>80%</li></ol>
+            <ol class="stat-line"><li>AMR</li><li>4%</li><li>20%</li></ol>
+          </div>
+          <div class="info-content eval">
+            <div class="eval-name">
+              <div class="linear-bg"></div>
+              <h3>Evaluation</h3>
+            </div>
+            <p>Provides heavy defensive buffs while sacrificing offensive ones. Her skill has questionable value, because an Armor or Taunt fairy could be used as an damage reduction alternatives. That said, she can still be used to great effect with some planning, as her active lasts for entire turn. Low priority.</p>
+          </div>
+        </div>
+      </div>
+      <div class="fairy tactical craftable">
+        <div class="identifier">
+          <h3 class="name" style="font-size: calc(1.2em + .5vw);">REINFORCEMENT</h3>
+          <img src="https://gflcorner.com/wp-content/uploads/2019/03/reinforce_3.png">
+        </div>
+        <div class="info">
+          <div class="info-content skill">
+            <div class="skill-header">
+              <img class="skill-icon" src="https://gflcorner.com/wp-content/uploads/2019/03/reinforce.png">
+              <div class="skill-name">
+                <h3>T-Doll Reinforcement</h3>
+                <p>Cost: 2 Support Commands<span class="width-buffer"></span>Cooldown: 1 turn</p>
+                <div class="linear-bg"></div>
+              </div>
+            </div>
+            <p>Grants the T-Doll in the echelon with lowest % of HP an extra dummy. Raises evasion of the entire echelon by 3%(10%) for all battles until end of turn. Buff wears off after 20 seconds during each battle.</p>
+          </div>
+          <div class="info-content stats">
+            <ol class="stat-header"><li>Stats</li><li>★</li><li>★★★<br></br>★★</li></ol>
+            <ol class="stat-line"><li>DMG</li><li>2%</li><li>12%</li></ol>
+            <ol class="stat-line"><li>CDMG</li><li>2%</li><li>15%</li></ol>
+            <ol class="stat-line"><li>ACC</li><li>n/a</li><li>n/a</li></ol>
+            <ol class="stat-line"><li>EVA</li><li>14%</li><li>88%</li></ol>
+            <ol class="stat-line"><li>AMR</li><li>2%</li><li>12%</li></ol>
+          </div>
+          <div class="info-content eval">
+            <div class="eval-name">
+              <div class="linear-bg"></div>
+              <h3>Evaluation</h3>
+            </div>
+            <p>Provides the lowest damage buffs but also the highest evasion buff of all the fairies. Her skill can be useful when the current echelon needs to continuously fight low damage enemies. Low priority.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="fairy combat craftable">
+        <div class="identifier">
+          <h3 class="name">WARRIOR</h3>
+          <img src="https://gflcorner.com/wp-content/uploads/2019/03/fighting_3.png">
+        </div>
+        <div class="info">
+          <div class="info-content skill">
+            <div class="skill-header">
+              <img class="skill-icon" src="https://gflcorner.com/wp-content/uploads/2019/03/fighting.png">
+              <div class="skill-name">
+                <h3>Prowess</h3>
+                <p>Cost: 1 Support Command<span class="width-buffer"></span>Cooldown: None</p>
+                <div class="linear-bg"></div>
+              </div>
+            </div>
+            <p>In the next battle, increase the echelon’s Damage by 5%(20%) and RoF by 5%(10%), buff lasts for 20 seconds [unstackable].</p>
+          </div>
+          <div class="info-content stats">
+            <ol class="stat-header"><li>Stats</li><li>★</li><li>★★★<br></br>★★</li></ol>
+            <ol class="stat-line"><li>DMG</li><li>5%</li><li>25%</li></ol>
+            <ol class="stat-line"><li>CDMG</li><li>n/a</li><li>n/a</li></ol>
+            <ol class="stat-line"><li>ACC</li><li>16%</li><li>80%</li></ol>
+            <ol class="stat-line"><li>EVA</li><li>8%</li><li>40%</li></ol>
+            <ol class="stat-line"><li>AMR</li><li>2%</li><li>10%</li></ol>
+          </div>
+          <div class="info-content eval">
+            <div class="eval-name">
+              <div class="linear-bg"></div>
+              <h3>Evaluation</h3>
+            </div>
+            <p>Fairly good aura with 25% damage increase. Her skill is very versatile and greatly improves the combat capability of a single squad. One of the best fairies for newer players since her performance is reliant primarily on skill level and can thus provide significant buffs at low rarity.</p>
+          </div>
+        </div>
+      </div>
+      <div class="fairy combat craftable">
+        <div class="identifier">
+          <h3 class="name">TAUNT</h3>
+          <img src="https://gflcorner.com/wp-content/uploads/2019/03/target_3.png">
+        </div>
+        <div class="info">
+          <div class="info-content skill">
+            <div class="skill-header">
+              <img class="skill-icon" src="https://gflcorner.com/wp-content/uploads/2019/03/target.png">
+              <div class="skill-name">
+                <h3>Taunt Target</h3>
+                <p>Cost: 3 Support Commands<span class="width-buffer"></span>Cooldown: None</p>
+                <div class="linear-bg"></div>
+              </div>
+            </div>
+            <p>At the start of the next battle, deploy a dummy target with 400(1600)HP that draws enemy fire.</p>
+          </div>
+          <div class="info-content stats">
+            <ol class="stat-header"><li>Stats</li><li>★</li><li>★★★<br></br>★★</li></ol>
+            <ol class="stat-line"><li>DMG</li><li>3%</li><li>18%</li></ol>
+            <ol class="stat-line"><li>CDMG</li><li>4%</li><li>25%</li></ol>
+            <ol class="stat-line"><li>ACC</li><li>10%</li><li>58%</li></ol>
+            <ol class="stat-line"><li>EVA</li><li>5%</li><li>28%</li></ol>
+            <ol class="stat-line"><li>AMR</li><li>2%</li><li>8%</li></ol>
+          </div>
+          <div class="info-content eval">
+            <div class="eval-name">
+              <div class="linear-bg"></div>
+              <h3>Evaluation</h3>
+            </div>
+            <p>Offers the second-best passive buffs out of all fairies.
+    This one is the most general use of them all, you will get one for free after you do your first fairy craft and it will also come with the Damage I talent. Raise her, as she will prove extremely useful.</p>
+          </div>
+        </div>
+      </div>
+      <div class="fairy combat craftable">
+        <div class="identifier">
+          <h3 class="name">FURY</h3>
+          <img src="https://gflcorner.com/wp-content/uploads/2019/03/crit_3.png">
+        </div>
+        <div class="info">
+          <div class="info-content skill">
+            <div class="skill-header">
+              <img class="skill-icon" src="https://gflcorner.com/wp-content/uploads/2019/03/crit.png">
+              <div class="skill-name">
+                <h3>Power Overwhelming</h3>
+                <p>Cost: 1 Support Command<span class="width-buffer"></span>Cooldown: None</p>
+                <div class="linear-bg"></div>
+              </div>
+            </div>
+            <p>In the next battle,increases Accuracy by 10%(50%) and Crit Rate by 10%(25%) for the entire echelon, last for 20 seconds.</p>
+          </div>
+          <div class="info-content stats">
+            <ol class="stat-header"><li>Stats</li><li>★</li><li>★★★<br></br>★★</li></ol>
+            <ol class="stat-line"><li>DMG</li><li>3%</li><li>15%</li></ol>
+            <ol class="stat-line"><li>CDMG</li><li>8%</li><li>40%</li></ol>
+            <ol class="stat-line"><li>ACC</li><li>n/a</li><li>n/a</li></ol>
+            <ol class="stat-line"><li>EVA</li><li>8%</li><li>40%</li></ol>
+            <ol class="stat-line"><li>AMR</li><li>2%</li><li>10%</li></ol>
+          </div>
+          <div class="info-content eval">
+            <div class="eval-name">
+              <div class="linear-bg"></div>
+              <h3>Evaluation</h3>
+            </div>
+            <p>Very strong aura with high Crit amounts. Fits into any crit-oriented team quite well. With her skill, Px4 Storms’s skill penalty can be counteracted. A very staple fairy overall.</p>
+          </div>
+        </div>
+      </div>
+      <div class="fairy combat craftable">
+        <div class="identifier">
+          <h3 class="name">AIRSTRIKE</h3>
+          <img src="https://gflcorner.com/wp-content/uploads/2019/03/air_attack_3.png">
+        </div>
+        <div class="info">
+          <div class="info-content skill">
+            <div class="skill-header">
+              <img class="skill-icon" src="https://gflcorner.com/wp-content/uploads/2019/03/air_attack.png">
+              <div class="skill-name">
+                <h3>Fatal Airstrike</h3>
+                <p>Cost: 1 Support Command<span class="width-buffer"></span>Cooldown: None</p>
+                <div class="linear-bg"></div>
+              </div>
+            </div>
+            <p>In the next battle, launches a mortar shell dealing 200(1200) damage to enemies in a 2.5 radius in the next battle.<br></br><span class="caution-text">Has an initial cooldown of 5 seconds in battle.</span></p>
+          </div>
+          <div class="info-content stats">
+            <ol class="stat-header"><li>Stats</li><li>★</li><li>★★★<br></br>★★</li></ol>
+            <ol class="stat-line"><li>DMG</li><li>5%</li><li>30%</li></ol>
+            <ol class="stat-line"><li>CDMG</li><li>n/a</li><li>n/a</li></ol>
+            <ol class="stat-line"><li>ACC</li><li>8%</li><li>50%</li></ol>
+            <ol class="stat-line"><li>EVA</li><li>6%</li><li>40%</li></ol>
+            <ol class="stat-line"><li>AMR</li><li>2%</li><li>10%</li></ol>
+          </div>
+          <div class="info-content eval">
+            <div class="eval-name">
+              <div class="linear-bg"></div>
+              <h3>Evaluation</h3>
+            </div>
+            <p>A bit better aura than Warrior Fairy, so very solid overall. Her skill deals fixed damage to all enemies in sight 5 seconds after the start of battle. She can frontload, de-link, or kill some enemies which is very valuable. Can be used in RFHG to great effect due to the fact that it counters Dinergates/Tarantulas. One of the most versatile fairies.</p>
+          </div>
+        </div>
+      </div>
+      <div class="fairy combat craftable">
+        <div class="identifier">
+          <h3 class="name">ARTILLERY</h3>
+          <img src="https://gflcorner.com/wp-content/uploads/2019/03/bombard_3.png">
+        </div>
+        <div class="info">
+          <div class="info-content skill">
+            <div class="skill-header">
+              <img class="skill-icon" src="https://gflcorner.com/wp-content/uploads/2019/03/bombard.png">
+              <div class="skill-name">
+                <h3>Bombard</h3>
+                <p>Cost: 3 Support Commands<span class="width-buffer"></span>Cooldown: None</p>
+                <div class="linear-bg"></div>
+              </div>
+            </div>
+            <p>At the start of next battle, calls in an artillery strike, dealing 80(500) damage to all enemies.</p>
+          </div>
+          <div class="info-content stats">
+            <ol class="stat-header"><li>Stats</li><li>★</li><li>★★★<br></br>★★</li></ol>
+            <ol class="stat-line"><li>DMG</li><li>11%</li><li>55%</li></ol>
+            <ol class="stat-line"><li>CDMG</li><li>n/a</li><li>n/a</li></ol>
+            <ol class="stat-line"><li>ACC</li><li>n/a</li><li>n/a</li></ol>
+            <ol class="stat-line"><li>EVA</li><li>11%</li><li>56%</li></ol>
+            <ol class="stat-line"><li>AMR</li><li>1%</li><li>6%</li></ol>
+          </div>
+          <div class="info-content eval">
+            <div class="eval-name">
+              <div class="linear-bg"></div>
+              <h3>Evaluation</h3>
+            </div>
+            <p>Very good damage aura due to 55% Damage increase, the highest of all fairies. However, her skill is relatively slow despite lack of initial cooldown, so Airstrike's active is an equal or sometimes better alternative. Overall a really good fairy, often used to brute force armor or to support nuke compositions.</p>
+          </div>
+        </div>
+      </div>
+      <div class="fairy combat craftable">
+        <div class="identifier">
+          <h3 class="name">SNIPER</h3>
+          <img src="https://gflcorner.com/wp-content/uploads/2019/03/sniper_3.png">
+        </div>
+        <div class="info">
+          <div class="info-content skill">
+            <div class="skill-header">
+              <img class="skill-icon" src="https://gflcorner.com/wp-content/uploads/2019/03/sniper.png">
+              <div class="skill-name">
+                <h3>Sniping Command</h3>
+                <p>Cost: 2 Support Commands<span class="width-buffer"></span>Cooldown: None</p>
+                <div class="linear-bg"></div>
+              </div>
+            </div>
+            <p>Aims at the enemy unit with the highest max HP in the next battle, causing 2500(20000) damage.<br></br><span class="caution-text">Has an initial cooldown of 10 seconds in battle.</span></p>
+          </div>
+          <div class="info-content stats">
+            <ol class="stat-header"><li>Stats</li><li>★</li><li>★★★<br></br>★★</li></ol>
+            <ol class="stat-line"><li>DMG</li><li>n/a</li><li>n/a</li></ol>
+            <ol class="stat-line"><li>CDMG</li><li>7%</li><li>36%</li></ol>
+            <ol class="stat-line"><li>ACC</li><li>18%</li><li>88%</li></ol>
+            <ol class="stat-line"><li>EVA</li><li>6%</li><li>28%</li></ol>
+            <ol class="stat-line"><li>AMR</li><li>3%</li><li>15%</li></ol>
+          </div>
+          <div class="info-content eval">
+            <div class="eval-name">
+              <div class="linear-bg"></div>
+              <h3>Evaluation</h3>
+            </div>
+            <p>Passable aura that can be very useful for some future content. Her skill is a bamboo lite, but with fixed damage. Can be actually used to one-shot some low HP bosses. Low priority, but it is recommended to raise one as a slow side project just in case.</p>
+          </div>
+        </div>
+      </div>
+      <div class="fairy combat craftable">
+        <div class="identifier">
+          <h3 class="name">ARMOR</h3>
+          <img src="https://gflcorner.com/wp-content/uploads/2019/03/armor_3.png">
+        </div>
+        <div class="info">
+          <div class="info-content skill">
+            <div class="skill-header">
+              <img class="skill-icon" src="https://gflcorner.com/wp-content/uploads/2019/03/armor.png">
+              <div class="skill-name">
+                <h3>Riot Control</h3>
+                <p>Cost: 3 Support Commands<span class="width-buffer"></span>Cooldown: None</p>
+                <div class="linear-bg"></div>
+              </div>
+            </div>
+            <p>In the next battle, improves riot-control capabilities for all SGs in the echelon, increasing their Armor by 15%(50%), buff lasts for 20 seconds.</p>
+          </div>
+          <div class="info-content stats">
+            <ol class="stat-header"><li>Stats</li><li>★</li><li>★★★<br></br>★★</li></ol>
+            <ol class="stat-line"><li>DMG</li><li>4%</li><li>22%</li></ol>
+            <ol class="stat-line"><li>CDMG</li><li>4%</li><li>22%</li></ol>
+            <ol class="stat-line"><li>ACC</li><li>n/a</li><li>n/a</li></ol>
+            <ol class="stat-line"><li>EVA</li><li>n/a</li><li>n/a</li></ol>
+            <ol class="stat-line"><li>AMR</li><li>5%</li><li>25%</li></ol>
+          </div>
+          <div class="info-content eval">
+            <div class="eval-name">
+              <div class="linear-bg"></div>
+              <h3>Evaluation</h3>
+            </div>
+            <p>Despite focusing on defense, she provides a respectable amount of damage buffs. Useful in MGSG comps for armor stacking. Lower priority but, it is worth having at least one.</p>
+          </div>
+        </div>
+      </div>
+      <div class="fairy combat craftable">
+        <div class="identifier">
+          <h3 class="name">SHIELD</h3>
+          <img src="https://gflcorner.com/wp-content/uploads/2019/03/shield_3.png">
+        </div>
+        <div class="info">
+          <div class="info-content skill">
+            <div class="skill-header">
+              <img class="skill-icon" src="https://gflcorner.com/wp-content/uploads/2019/03/shield.png">
+              <div class="skill-name">
+                <h3>Energy Shield</h3>
+                <p>Cost: 3 Support Commands<span class="width-buffer"></span>Cooldown: None</p>
+                <div class="linear-bg"></div>
+              </div>
+            </div>
+            <p>In the next battle, deploys a shield for every SMG in the echelon, each absorbing 40(150) damage.</p>
+          </div>
+          <div class="info-content stats">
+            <ol class="stat-header"><li>Stats</li><li>★</li><li>★★★<br></br>★★</li></ol>
+            <ol class="stat-line"><li>DMG</li><li>4%</li><li>20%</li></ol>
+            <ol class="stat-line"><li>CDMG</li><li>n/a</li><li>n/a</li></ol>
+            <ol class="stat-line"><li>ACC</li><li>12%</li><li>60%</li></ol>
+            <ol class="stat-line"><li>EVA</li><li>16%</li><li>80%</li></ol>
+            <ol class="stat-line"><li>AMR</li><li>n/a</li><li>n/a</li></ol>
+          </div>
+          <div class="info-content eval">
+            <div class="eval-name">
+              <div class="linear-bg"></div>
+              <h3>Evaluation</h3>
+            </div>
+            <p>Passable aura. Her skill is suited for buffing survivability of SMGs, which has limited applications. Low priority.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="footer">
+  Brought to you by Girls' Frontline Corner. Page design by AortaHeart.
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+<script src="js/fairy-info.js"></script>
+</body>
